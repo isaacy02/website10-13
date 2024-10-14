@@ -1,0 +1,87 @@
+.body-class {
+    background-color: #f0f0f5;
+}
+
+.header-class {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-class {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-class a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.nav-class a:hover {
+    font-weight: bold;
+}
+
+.title-class, .section-title-class {
+    color: #ff4500;
+}
+
+.text-class {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.image-class {
+    border: 5px solid #ff4500;
+    max-width: 100%;
+    height: auto;
+}
+
+.form-class {
+    margin-top: 10px;
+}
+
+.label-class {
+    font-size: 16px;
+}
+
+.input-class {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.button-class {
+    background-color: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-class:hover {
+    background-color: #cc3700;
+}
+
+.footer-class {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .nav-class a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .image-class {
+        width: 100%;
+        height: auto;
+    }
+}
